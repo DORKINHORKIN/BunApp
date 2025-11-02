@@ -14,5 +14,9 @@
     "preact": "^10.27.2",
     "preact-render-to-string": "^6.6.1",
     "tailwindcss": "^4.1.13"
+  },
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target bun --minify",
+    "test": "bun test"
   }
 }
