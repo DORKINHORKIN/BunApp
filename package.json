@@ -1,22 +1,11 @@
 {
-  "name": "htmx2",
-  "module": "index.ts",
+  "name": "example-bun",
+  "module": "server.ts",
   "type": "module",
-  "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "bun-types": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "htmx.org": "2.0.7",
-    "preact": "^10.27.2",
-    "preact-render-to-string": "^6.6.1",
-    "tailwindcss": "^4.1.13"
-  },
-  "scripts": {
-    "build": "bun build index.ts --outdir dist --target bun --minify",
-    "test": "bun test"
+    "typescript": "^5.0.0"
   }
 }
